@@ -1,0 +1,110 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Space Tourism</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1 id="title">Space Tourism</h1>
+      <p id="description">Fill the form so you can leave Earth for good!</p>
+    </header>
+    <section class="form">
+      <form action="" method="get" id="survey-form">
+        <div class="name">
+          <label for="name" id="name-label"> Name:</label>
+          <input type="text" name="name" id="name" placeholder="Elon Musk" required>
+        </div>
+
+        <div class="email">
+          <label for="email" id="email-label"> E-mail:</label>
+          <input type="email" name="email" id="email" placeholder="elon@spacex.com" required>
+        </div>
+
+        <div class="number">
+          <label for="numer" id="number-label"> Age: </label>
+          <input type="number" name="age" id="number" placeholder="49" min="18" max="69" required>
+        </div>
+
+        <div>
+          <label for="planet-select">Choose a planet:</label>
+          <select name="planets" id="dropdown">
+            <option value="Mars" class="dropdown-content">Mars</option>
+            <option value="Mercury" class="dropdown-content">Mercury</option>
+            <option value="Venus" class="dropdown-content">Venus</option>
+            <option value="Jupiter" class="dropdown-content">Jupiter</option>
+            <option value="Saturn" class="dropdown-content">Uranus</option>
+            <option value="Neptune" class="dropdown-content">Neptune</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="year-select">When do you want to leave:</label>
+          <select name="year" id="dropdown">
+            <option value="2021" class="dropdown-content">2021</option>
+            <option value="2022" class="dropdown-content">2022</option>
+            <option value="2023" class="dropdown-content">2023</option>
+            <option value="2024" class="dropdown-content">2024</option>
+            <option value="2025" class="dropdown-content">2026</option>
+            <option value="2026" class="dropdown-content">2027</option>
+            <option value="2028" class="dropdown-content">2028</option>
+            <option value="2029" class="dropdown-content">2029</option>
+            <option value="2030" class="dropdown-content">2030</option>
+            <option value="never" class="dropdown-content">never</option>
+          </select>
+        </div>
+
+        <div class="transport">
+          <p>Choose your transport:</p>
+          <input type="radio" id="bicycle" name="transport" value="bicycle">
+          <label for="bicycle">Bicycle</label>
+
+          <input type="radio" id="car" name="transport" value="car">
+          <label for="car">Car</label>
+
+          <input type="radio" id="boat" name="transport" value="boat">
+          <label for="boat">Boat</label>
+
+          <input type="radio" id="rocket" name="transport" value="rocket" checked>
+          <label for="rocket">Rocket</label>
+
+          <input type="radio" id="plane" name="transport" value="plane">
+          <label for="plane">Plane</label>
+        </div>
+
+        <div class="luggage">
+          <p>Choose your luggage:</p>
+          <input type="checkbox" id="food" name="luggage" value="food">
+          <label for="food">Food</label>
+
+          <input type="checkbox" id="dog" name="luggage" value="dog" checked>
+          <label for="dog">Dog</label>
+
+          <input type="checkbox" id="mom" name="luggage" value="mom">
+          <label for="mom">Mom</label>
+
+          <input type="checkbox" id="clothes" name="luggage" value="clothes">
+          <label for="clothes">Clothes</label>
+
+          <input type="checkbox" id="medicine" name="luggage" value="medicine">
+          <label for="medicine">Medicine</label>
+        </div>
+
+        <div class="story">
+          <label for="story">Tell us why you want to leave Earth:</label><br>
+          <textarea id="story" name="story" rows="5" cols="33">I want to leave Earth because...</textarea>
+        </div>
+
+        <div>
+          <button type="submit" id="submit"> SUBMIT </button>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>

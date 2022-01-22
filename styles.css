@@ -1,0 +1,79 @@
+body {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 450px;
+  background: url(https://wallpaperboat.com/wp-content/uploads/2019/09/4k-Wallpaper-space.jpg);
+  background-position: top right;
+  color: white;
+  font-family: roboto, sans serif;
+  font-weight: 100;
+}
+
+header {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+#description {
+  margin-top: 0px;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.form {
+  background-color: rgba(255, 255, 255, 20%);
+  padding: 25px;
+}
+
+.name input, .email input, .number input, #dropdown, textarea, button {
+  width: 100%;
+  border: none;
+  margin-bottom: 10px;
+}
+
+input, #story, #dropdown {
+  background: none;
+  background-color: rgba(255, 255, 255, 10%);
+  color: rgba(255, 255, 255, 30%);
+}
+
+.dropdown-content {
+  color: black;
+}
+
+input:hover, #dropdown:hover, #story:hover {
+  background-color: rgba(255, 255, 255, 15%);
+}
+
+.transport label, .luggage label {
+  color: rgba(255, 255, 255, 30%);
+  font-size: 15px;
+}
+
+.story {
+  margin-top: 10px;
+}
+
+#story {
+  color: rgba(255, 255, 255, 30%);
+}
+
+button {
+  background-color: rgba(255, 255, 255, 40%);
+  color: black;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 60%);
+}
